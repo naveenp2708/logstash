@@ -1,0 +1,30 @@
+2023-03-24T16:27:05.664Z	INFO	dispatcher-query-2899	com.chc.trino.QueryLoggerListener	------------------ QueryCreatedEvent start ------------------
+2023-03-24T16:27:05.664Z	INFO	dispatcher-query-2899	com.chc.trino.QueryLoggerListener	Executing Query with ID 20210324_162705_02060_xyzdf -
+{
+	"query": "select "activecount" from "trino.failuredetector:name=heartbeatfailuredetector"",
+	"queryID": "20210324_162705_02060_xyzdf",
+	"user": "XyzabClientIMRT",
+	"createdAt": "2023-03-24T16:27:05.664Z",
+	"userPrincipal": "XyzabClientIMRT",
+	"clientIP": "10.45.115.221",
+	"querySource": "trino-cli",
+	"userAgent": "StatementClientV1/398-amzn-0",
+	"catalog": "jmx",
+	"schema": "current",
+	"serverIP": "99-11-114-151.ip"
+}
+
+2023-03-24T16:27:05.699Z	INFO	dispatcher-query-2900	com.chc.trino.QueryLoggerListener	------------------ QueryCompletedEvent start ------------------
+2023-03-24T16:27:05.699Z	INFO	dispatcher-query-2900	com.chc.trino.QueryLoggerListener	Query with ID 20210324_162705_02060_xyzdf executed successfully -
+{
+	"queryID": "20210324_162705_02060_xyzdf",
+	"user": "XyzabClientIMRT",
+	"clientIP": "10.45.115.221",
+	"isCompleted": "true",
+	"startTime": "2023-03-24T16:27:05.666Z",
+	"endTime": "2023-03-24T16:27:05.696Z",
+	"returnedRows": "1",
+	"totalRows": "1"
+}
+
+2023-03-24T16:27:05.699Z	INFO	dispatcher-query-2900	io.trino.event.QueryMonitor	TIMELINE: Query 20210324_162705_02060_xyzdf :: FINISHED :: elapsed 32ms :: planning 8ms :: waiting 2ms :: scheduling 6ms :: running 11ms :: finishing 7ms :: begin 2023-03-24T16:27:05.664Z :: end 2023-03-24T16:27:05.696Z
